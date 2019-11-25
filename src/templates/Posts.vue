@@ -63,7 +63,7 @@ export default {
 <page-query>
 # Write your query or mutation here
 query($path:String!="/posts/test"){
-  node:post(path:$path){
+  node:posts(path:$path){
     title
     excerpt
     thumbnail

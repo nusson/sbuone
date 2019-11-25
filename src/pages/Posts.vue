@@ -95,7 +95,7 @@ p, h2, header{
 
 <page-query>
 query{
-  posts : allPost{
+  posts : allPosts{
     edges{
       node{
         id

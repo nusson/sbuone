@@ -22,7 +22,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'posts/**/*.md',
-        typeName: 'Post',
+        typeName: 'Posts',
         remark: {
           plugins: [
             // ...local plugins
@@ -38,6 +38,6 @@ module.exports = {
     },
   ],
   templates: {
-    Post: '/post/:slug',
+    Posts: '/posts/:slug',
   },
 }
