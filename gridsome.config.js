@@ -36,5 +36,8 @@ module.exports = {
         publicPath: `/admin`
       }
     },
-  ]
+  ],
+  templates: {
+    Post: '/post/:slug',
+  },
 }
