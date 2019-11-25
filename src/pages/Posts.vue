@@ -98,6 +98,7 @@ query{
   posts : allPost{
     edges{
       node{
+        id
         path
         title
         thumbnail (width:200)
